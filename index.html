@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <title>Главная</title>
+    <style>
+        body{
+            background-color: #000000;
+            color: #e0e0e0;
+        }
+        .footer-banner {
+            padding: 20px 0;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .container1{
+            margin-top: 10px;
+        }
+        .card-action{
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body class="">
+<header>
+    <nav class="nav-wrapper black darken-3">
+        <div class="container">
+            <a href="index.html" class="brand-logo">Крутая компания</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+    </ul>
+</header>
+<div class="parallax-container">
+    <div class="parallax"><img src="./1671495641_kalix-club-p-parallaks-oboi-pinterest-26.png" alt="Parallax Background"></div>
+</div>
+<div class="container background-color whit white-text">
+    <h1>О нас</h1>
+    <p>Мы — команда профессионалов, занимающаяся предоставлением качественных услуг в различных сферах. Наша цель — удовлетворить потребности каждого клиента.</p>
+    <div class="row">
+        <div class="col s12 m6">
+            <img src="./2323.png" alt="Наш офис" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+            <h5>Почему выбирают нас</h5>
+            <p>Мы стремимся предоставлять высококачественные услуги, которые превышают ожидания наших клиентов. С более чем десятилетним опытом, мы гарантируем, что каждый клиент получает персонализированный подход и решения, адаптированные под их нужды.</p>
+        </div>
+    </div>
+    <div class="row">
+        <h5 class="center-align">Наша команда</h5>
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./dng_img_3206.jpg" alt="Член команды">
+                </div>
+                <div class="card-content background-color black">
+                    <h6>Александр Иванов</h6>
+                    <p>Руководитель отдела разработки. Опыт работы более 10 лет в области IT.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./otzyv-3.jpg" alt="Член команды">
+                </div>
+                <div class="card-content background-color black">
+                    <h6>Мария Петрова</h6>
+                    <p>Менеджер по продажам. Специалист по работе с ключевыми клиентами.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./IMG_9791.jpg" alt="Член команды">
+                </div>
+                <div class="card-content background-color black">
+                    <h6>Дмитрий Сидоров</h6>
+                    <p>Главный инженер. Эксперт в области проектирования и разработки.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="footer-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="card black darken-2 white-text center">
+                    <div class="card-content">
+                        <span class="card-title">Подпишитесь на нашу рассылку!</span>
+                        <p>Получайте последние новости и специальные предложения прямо на вашу почту.</p>
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <input id="name" type="text" class="white-text" required>
+                                <label for="name" class="white-text">Ваше имя</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input id="email" type="email" class="white-text" required>
+                                <label for="email" class="white-text">Ваша почта</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <button id="subscribe-button" class="btn-large waves-effect waves-light rgb(44,64,77)">Подписаться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h5 class="center-align">Наши продукты</h5>
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image background-color black">
+                    <img src="./23234.png" alt="Продукт 1">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content background-color black">
+                    <p>Краткое описание продукта 1. Это может быть что-то о его уникальных характеристиках или преимуществах.</p>
+                    <p><strong>Цена: 1000 ₽</strong></p>
+                </div>
+                <div class="card-action background-color black">
+                    <a href="#!" class="btn-small waves-effect waves-light rgb(44,64,77)">Купить</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card">
+                <div class="card-image background-color black">
+                    <img src="./23234.png" alt="Продукт 2">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content background-color black">
+                    <p>Краткое описание продукта 2. Это может быть что-то о его уникальных характеристиках или преимуществах.</p>
+                    <p><strong>Цена: 1500 ₽</strong></p>
+                </div>
+                <div class="card-action background-color black">
+                    <a href="#!" class="btn-small waves-effect waves-light rgb(44,64,77)">Купить</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card background-color black">
+                <div class="card-image">
+                    <img src="./23234.png" alt="Продукт 3">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                    <p>Краткое описание продукта 3. Это может быть что-то о его уникальных характеристиках или преимуществах.</p>
+                    <p><strong>Цена: 2000 ₽</strong></p>
+                </div>
+                <div class="card-action">
+                    <a href="#!" class="btn-small waves-effect waves-light rgb(44,64,77)">Купить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container1">
+    <h5 class="center-align">Отзывы наших клиентов</h5>
+    <div class="carousel">
+        <a class="carousel-item white-text" href="#one!"><img src="./galitskiy0.jpg"><p>Отличная компания! Рекомендую всем! - Иван Петров</p></a>
+        <a class="carousel-item white-text" href="#two!"><img src="./62b9e7a0042c4247fc0aadcc_62b9e835788992.98207927.jpg"><p>Быстро и качественно выполнили работу. - Елена Сидорова</p></a>
+        <a class="carousel-item white-text" href="#three!"><img src="./galitskiy0.jpg"><p>Очень доволен услугами. Профессионалы своего дела. - Дмитрий Иванов</p></a>
+    </div>
+</div>
+<div class="container">
+    <h5 class="center-align ">Часто задаваемые вопросы</h5>
+    <ul class="collapsible">
+        <li>
+            <div class="collapsible-header background-color black"><i class="material-icons"></i>Вопрос 1: Как я могу связаться с вами?</div>
+            <div class="collapsible-body background-color black"><span>Вы можете связаться с нами по телефону, электронной почте или через форму на странице контактов.</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header background-color black"><i class="material-icons"></i>Вопрос 2: Какие услуги вы предоставляете?</div>
+            <div class="collapsible-body"><span>Мы предоставляем широкий спектр услуг, включая консалтинг, разработку программного обеспечения и поддержку клиентов.</span></div>
+        </li>
+    </ul>
+</div>
+<footer class="page-footer black darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <h5 class="white-text">Навигация</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="index.html">Главная</a></li>
+                    <li><a class="grey-text text-lighten-3" href="about.html">О нас</a></li>
+                    <li><a class="grey-text text-lighten-3" href="services.html">Услуги</a></li>
+                    <li><a class="grey-text text-lighten-3" href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="white-text">Социальные сети</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-copyright black">
+        <div class="container">
+            © 2024 Сайт
+            <a class="grey-text text-lighten-4 right" href="#!">Больше ссылок</a>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems);
+});
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+});
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+
+        var elemsParallax = document.querySelectorAll('.parallax');
+        var instancesParallax = M.Parallax.init(elemsParallax);
+
+        document.getElementById('subscribe-button').addEventListener('click', function() {
+            var nameField = document.getElementById('name');
+            var emailField = document.getElementById('email');
+
+            var name = nameField.value.trim();
+            var email = emailField.value.trim();
+
+            if (name !== '' && email !== '') {
+                nameField.value = '';
+                emailField.value = '';
+                M.toast({html: 'Спасибо за подписку!', displayLength: 3000});
+            } else {
+                M.toast({html: 'Пожалуйста, заполните все поля!', displayLength: 3000});
+            }
+        });
+    });
+</script>
+</body>
+</html>

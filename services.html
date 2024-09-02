@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги Компании</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000;
+            color: #e0e0e0;
+        }
+        .card {
+            background-color: #0f0f0f;
+        }
+        .card-content {
+            color: #e0e0e0;
+        }
+        .header, .footer {
+            background-color: #000000;
+            color: #e0e0e0;
+        }
+        .btn-custom {
+            background-color: 44,64,77;
+        }
+        .btn-custom:hover {
+            background-color: #000552;
+        }
+        .section {
+            padding: 50px 0;
+        }
+        .navbar-fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+        .nav-wrapper {
+            background-color: #000000;
+        }
+        .testimonial-card {
+            background-color: #000000;
+            padding: 20px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Крутая компания</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#advantages">Преимущества</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container" style="margin-top: 80px;">
+        <div id="services" class="section">
+            <div class="header center-align">
+                <h2>Наши Услуги</h2>
+                <p>Мы предлагаем широкий спектр услуг, чтобы удовлетворить все ваши потребности.</p>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Услуга 1</span>
+                            <p>Описание услуги 1.просто офигенная услуга</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="btn btn-custom">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Услуга 2</span>
+                            <p>Описание услуги 2.просто крутая услуга</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="btn btn-custom">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Услуга 3</span>
+                            <p>Описание услуги 3. просто шикарная услуга</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="btn btn-custom">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="advantages" class="section">
+            <div class="header center-align">
+                <h2>Наши Преимущества</h2>
+                <p>Почему выбирают нас? Мы гарантируем высокое качество и профессиональный подход к каждому клиенту.</p>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block center">
+                        <i class="large material-icons">verified_user</i>
+                        <h5>Надежность</h5>
+                        <p>Мы всегда выполняем свои обязательства и ценим доверие наших клиентов.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block center">
+                        <i class="large material-icons">thumb_up</i>
+                        <h5>Качество</h5>
+                        <p>Мы предоставляем только качественные услуги, которые удовлетворяют всех наших клиентов.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block center">
+                        <i class="large material-icons">support</i>
+                        <h5>Поддержка</h5>
+                        <p>Наша служба поддержки всегда готова помочь вам с любыми вопросами и проблемами.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="testimonials" class="section">
+            <div class="header center-align">
+                <h2>Отзывы Клиентов</h2>
+                <p>Наши клиенты довольны нашей работой, и вот что они говорят:</p>
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="testimonial-card">
+                        <p><strong>Анна Иванова</strong></p>
+                        <p>"Отличный сервис! Все было сделано быстро и качественно. Очень довольна результатом."</p>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="testimonial-card">
+                        <p><strong>Петр Петров</strong></p>
+                        <p>"Приятно работать с профессионалами. Все на высшем уровне. Рекомендую всем!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="white-text">Навигация</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Главная</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">О нас</a></li>
+                        <li><a class="grey-text text-lighten-3" href="services.html">Услуги</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h5 class="white-text">Социальные сети</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

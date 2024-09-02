@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <title>О нас</title>
+</head>
+<body class="black">
+<header>
+    <nav class="nav-wrapper black darken-3">
+        <div class="container">
+            <a href="index.html" class="brand-logo">Крутая компания</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+    </ul>
+</header>
+<div class="container white-text black">
+    <h1>О нас</h1>
+    <p>Мы — команда профессионалов, занимающаяся предоставлением качественных услуг в различных сферах. Наша цель — удовлетворить потребности каждого клиента.</p>
+    <div class="row">
+        <div class="col s12 m6">
+            <img src="./2323.png" alt="Наш офис" class="responsive-img">
+        </div>
+        <div class="col s12 m6">
+            <h5>Почему выбирают нас</h5>
+            <p>Мы стремимся предоставлять высококачественные услуги, которые превышают ожидания наших клиентов. С более чем десятилетним опытом, мы гарантируем, что каждый клиент получает персонализированный подход и решения, адаптированные под их нужды.</p>
+        </div>
+    </div>
+    <div class="row">
+        <h5 class="center-align">Наша команда</h5>
+
+        <div class="col s12 m4">
+            <div class="card black">
+                <div class="card-image">
+                    <img src="./dng_img_3206.jpg" alt="Член команды">
+                </div>
+                <div class="card-content">
+                    <h6>Александр Иванов</h6>
+                    <p>Руководитель отдела разработки. Опыт работы более 10 лет в области IT.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card black">
+                <div class="card-image">
+                    <img src="./otzyv-3.jpg" alt="Член команды">
+                </div>
+                <div class="card-content">
+                    <h6>Мария Петрова</h6>
+                    <p>Менеджер по продажам. Специалист по работе с ключевыми клиентами.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card black">
+                <div class="card-image">
+                    <img src="./IMG_9791.jpg" alt="Член команды">
+                </div>
+                <div class="card-content">
+                    <h6>Дмитрий Сидоров</h6>
+                    <p>Главный инженер. Эксперт в области проектирования и разработки.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="page-footer black darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <h5 class="white-text">Навигация</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="index.html">Главная</a></li>
+                    <li><a class="grey-text text-lighten-3" href="about.html">О нас</a></li>
+                    <li><a class="grey-text text-lighten-3" href="services.html">Услуги</a></li>
+                    <li><a class="grey-text text-lighten-3" href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div></div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+    </body>
+    </html>
